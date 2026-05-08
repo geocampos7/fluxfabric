@@ -6,38 +6,38 @@
 
 /* ── THEME TOKENS ── */
 :root {
-  --bg:        #080c10;
+  --bg:        #0a0e14;
   --bg2:       #0d1117;
   --bg3:       #111820;
   --surface:   #141c26;
   --border:    #1e2d3d;
   --border2:   #243447;
-  --accent:    #00d4ff;
-  --accent2:   #0090b8;
-  --accent-glow: rgba(0,212,255,0.12);
+  --accent:    #00c896;
+  --accent2:   #00957a;
+  --accent-glow: rgba(0,200,150,0.12);
   --text:      #e2eaf4;
   --text2:     #8fa3b8;
   --text3:     #546a7e;
   --green:     #00ff88;
-  --nav-bg:    rgba(8,12,16,0.9);
+  --nav-bg:    rgba(10,14,20,0.9);
   --toggle-track: #1e2d3d;
 }
 
 [data-theme="light"] {
-  --bg:        #f2f6fb;
+  --bg:        #f5f7f2;
   --bg2:       #ffffff;
   --bg3:       #e8eef6;
   --surface:   #ffffff;
   --border:    #d6e2ef;
   --border2:   #c2d3e3;
-  --accent:    #0078a8;
-  --accent2:   #005f87;
-  --accent-glow: rgba(0,120,168,0.10);
+  --accent:    #007a5e;
+  --accent2:   #005a45;
+  --accent-glow: rgba(0,200,150,0.12);
   --text:      #0d1117;
   --text2:     #3d5166;
   --text3:     #7a95a8;
   --green:     #006b36;
-  --nav-bg:    rgba(242,246,251,0.94);
+  --nav-bg:    rgba(245,247,242,0.94);
   --toggle-track: #c2d3e3;
 }
 
@@ -58,8 +58,8 @@ body::before {
   content: '';
   position: fixed; inset: 0;
   background-image:
-    linear-gradient(rgba(0,212,255,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,212,255,0.025) 1px, transparent 1px);
+    linear-gradient(rgba(0,200,150,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,200,150,0.025) 1px, transparent 1px);
   background-size: 40px 40px;
   pointer-events: none;
   z-index: 0;
@@ -78,7 +78,7 @@ body::before {
   font-size: 0.7rem; font-weight: 500;
   letter-spacing: 0.07em; text-transform: uppercase;
   padding: 0.8rem 1.4rem; border-radius: 3px;
-  background: var(--accent); color: #080c10; border: none;
+  background: var(--accent); color: #0a0e14; border: none;
   cursor: pointer; text-decoration: none;
   transition: all 0.2s; display: inline-flex;
   align-items: center; gap: 0.4rem;
@@ -179,8 +179,8 @@ body::before {
 
 /* PULSE DOT */
 @keyframes pulse {
-  0%,100% { box-shadow: 0 0 0 0 rgba(0,212,255,0.5); }
-  50%      { box-shadow: 0 0 0 5px rgba(0,212,255,0); }
+  0%,100% { box-shadow: 0 0 0 0 rgba(0,200,150,0.5); }
+  50%      { box-shadow: 0 0 0 5px rgba(0,200,150,0); }
 }
 
 /* SCROLL BAR */

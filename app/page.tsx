@@ -10,12 +10,12 @@ export default async function Home() {
       {/* ORBS */}
       <div style={{
         position: 'fixed', width: 340, height: 340, borderRadius: '50%',
-        background: 'var(--orb1, rgba(0,212,255,0.06))', filter: 'blur(90px)',
+        background: 'var(--orb1, rgba(0,200,150,0.06))', filter: 'blur(90px)',
         pointerEvents: 'none', zIndex: 0, top: -80, right: -80,
       }} />
       <div style={{
         position: 'fixed', width: 240, height: 240, borderRadius: '50%',
-        background: 'var(--orb2, rgba(0,144,184,0.04))', filter: 'blur(90px)',
+        background: 'var(--orb2, rgba(0,149,122,0.04))', filter: 'blur(90px)',
         pointerEvents: 'none', zIndex: 0, bottom: '25%', left: -60,
       }} />
 
@@ -40,11 +40,11 @@ export default async function Home() {
 
         <h1 className="fi fi-2" style={{
           fontFamily: 'Syne, sans-serif', fontWeight: 800,
-          fontSize: 'clamp(2.6rem, 10vw, 5rem)',
+          fontSize: 'clamp(2.6rem, 6vw, 5rem)',
           lineHeight: 0.95, letterSpacing: '-0.04em',
           color: 'var(--text)', marginBottom: '1.25rem',
         }}>
-          Where AI meets<br />
+          <span style={{ color: '#eef2f6' }}>Where AI meets</span><br />
           <span style={{ color: 'var(--accent)' }}>the fabric.</span><br />
           <span style={{ color: 'var(--text3)' }}>No fluff.</span>
         </h1>
