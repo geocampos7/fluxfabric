@@ -65,7 +65,7 @@ export default function Navbar() {
                   href={link.href}
                   target={link.external ? '_blank' : undefined}
                   style={{
-                    fontFamily: 'JetBrains Mono, monospace', fontSize: '0.68rem',
+                    fontFamily: 'JetBrains Mono, monospace', fontSize: '0.75rem',
                     color: 'var(--text2)', textDecoration: 'none',
                     letterSpacing: '0.06em', textTransform: 'uppercase',
                     transition: 'color 0.2s', whiteSpace: 'nowrap',
@@ -143,7 +143,7 @@ export default function Navbar() {
               target={link.external ? '_blank' : undefined}
               onClick={closeMenu}
               style={{
-                fontFamily: 'JetBrains Mono, monospace', fontSize: '0.8rem',
+                fontFamily: 'JetBrains Mono, monospace', fontSize: '0.75rem',
                 color: 'var(--text2)', textDecoration: 'none',
                 letterSpacing: '0.06em', textTransform: 'uppercase',
                 padding: '1rem 1.25rem',

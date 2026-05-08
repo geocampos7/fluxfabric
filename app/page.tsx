@@ -10,12 +10,12 @@ export default async function Home() {
       {/* ORBS */}
       <div style={{
         position: 'fixed', width: 340, height: 340, borderRadius: '50%',
-        background: 'var(--orb1, rgba(0,200,150,0.06))', filter: 'blur(90px)',
+        background: 'var(--orb1, rgba(77,159,255,0.06))', filter: 'blur(90px)',
         pointerEvents: 'none', zIndex: 0, top: -80, right: -80,
       }} />
       <div style={{
         position: 'fixed', width: 240, height: 240, borderRadius: '50%',
-        background: 'var(--orb2, rgba(0,149,122,0.04))', filter: 'blur(90px)',
+        background: 'var(--orb2, rgba(45,125,210,0.04))', filter: 'blur(90px)',
         pointerEvents: 'none', zIndex: 0, bottom: '25%', left: -60,
       }} />
 
@@ -28,7 +28,7 @@ export default async function Home() {
       }}>
         <div className="fi fi-1">
           <div style={{
-            fontFamily: 'JetBrains Mono, monospace', fontSize: '0.62rem',
+            fontFamily: 'JetBrains Mono, monospace', fontSize: '0.72rem',
             color: 'var(--accent)', letterSpacing: '0.12em', textTransform: 'uppercase',
             marginBottom: '1.25rem', display: 'flex', alignItems: 'center',
             gap: '0.6rem', flexWrap: 'wrap',
@@ -44,8 +44,8 @@ export default async function Home() {
           lineHeight: 0.95, letterSpacing: '-0.04em',
           color: 'var(--text)', marginBottom: '1.25rem',
         }}>
-          <span style={{ color: '#eef2f6' }}>Where AI meets</span><br />
-          <span style={{ color: 'var(--accent)' }}>the fabric.</span><br />
+          <span style={{ color: 'var(--text)' }}>Where AI meets</span><br />
+          <span style={{ color: 'var(--hero-fabric)' }}>the fabric.</span><br />
           <span style={{ color: 'var(--text3)' }}>No fluff.</span>
         </h1>
 
