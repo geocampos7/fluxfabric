@@ -12,6 +12,7 @@ export interface Post {
   readTime: string
   excerpt: string
   content: string
+  coverImage: string
 }
 
 export async function getPosts(): Promise<Post[]> {
@@ -32,6 +33,7 @@ export async function getPosts(): Promise<Post[]> {
       readTime: data.readTime || '5 min read',
       excerpt: data.excerpt || content.slice(0, 160) + '...',
       content,
+      coverImage: data.coverImage || '',
     }
   })
 
@@ -53,5 +55,6 @@ export async function getPost(slug: string): Promise<Post | null> {
     readTime: data.readTime || '5 min read',
     excerpt: data.excerpt || content.slice(0, 160) + '...',
     content,
+    coverImage: data.coverImage || '',
   }
 }

@@ -74,6 +74,10 @@ export default async function PostPage({ params }: Props) {
         </div>
       </div>
 
+      {post.coverImage && (
+        <img src={post.coverImage} alt={post.title} style={{ width: '100%', borderRadius: 4, marginBottom: '2rem', display: 'block' }} />
+      )}
+
       {/* Divider */}
       <div style={{ height: 1, background: 'var(--border)', marginBottom: '2.5rem' }} />
 
