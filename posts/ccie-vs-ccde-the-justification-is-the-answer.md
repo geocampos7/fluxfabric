@@ -25,7 +25,7 @@ Cisco doesn't ask you to justify your approach in the CCIE lab. They tell you wh
 
 That mindset produces some of the best engineers in the industry, and I have nothing against it.
 
-It's just a ceiling.
+**It's just a ceiling.**
 
 The CCDE lives above that ceiling.
 
@@ -41,9 +41,9 @@ There is no single correct answer in the CCDE practical exam.
 
 Two candidates can walk into the same scenario, recommend completely different architectures, and both can pass.
 
-Because the answer is never the answer.
+**Because the answer is never the answer.**
 
-The justification is the answer.
+**The justification is the answer.**
 
 That one idea dismantles everything most engineers have been trained to believe about expertise.
 
@@ -63,7 +63,7 @@ It requires sitting with ambiguity and incomplete information and still making a
 
 It requires understanding that the technically superior solution is sometimes the wrong solution.
 
-A perfectly engineered EVPN fabric that requires three senior engineers to operate is a bad design for a company with one overworked generalist IT admin.
+**A perfectly engineered EVPN fabric that requires three senior engineers to operate is a bad design for a company with one overworked generalist IT admin.**
 
 A multi-region architecture with ultra-fast convergence means nothing if the business cannot support the operational complexity that comes with it.
 
@@ -83,4 +83,4 @@ The CCDE tests how you think when you don't have all the answers, which if we're
 
 So if you're a CCIE thinking about the CCDE, the real question probably isn't whether you know enough protocols.
 
-It's whether you've trained yourself to ask why before you ask how.
+**It's whether you've trained yourself to ask why before you ask how.**
