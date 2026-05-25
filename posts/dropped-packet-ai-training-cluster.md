@@ -31,7 +31,7 @@ The word that matters there is every.
 
 Not most. Not the majority.
 
-Every GPU has to complete the synchronization before anyone moves forward.
+**Every GPU has to complete the synchronization before anyone moves forward.**
 
 Which means if one flow stalls, one dropped packet, one moment of congestion that pauses a sender, the entire job waits. Every GPU in the cluster sits idle until that one flow recovers.
 
@@ -47,9 +47,9 @@ The network is engineered to avoid loss under congestion as aggressively as poss
 
 That changes every design decision you make about the fabric. Which hardware you select. How you size and manage buffers. How you configure congestion control. How you think about failure domains and what happens when something goes wrong mid-training.
 
-In a traditional fabric those are infrastructure decisions.
+**In a traditional fabric those are infrastructure decisions.**
 
-In an AI training fabric they are compute decisions.
+**In an AI training fabric they are compute decisions.**
 
 The network is part of the pipeline, not just the transport underneath it.
 
@@ -57,4 +57,4 @@ Getting that right is where the real architecture work begins.
 
 And it starts with understanding that a dropped packet here is not a recoverable event.
 
-It is everyone's problem at the same time.
+**It is everyone's problem at the same time.**
