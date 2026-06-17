@@ -67,13 +67,11 @@ A trust boundary configured differently than expected.
 
 Suddenly the behavior you're counting on starts to disappear.
 
-The challenge is not understanding PFC.
-
-The challenge is operating an entire fabric that depends on it.
+**The challenge is not understanding PFC. The challenge is operating an entire fabric that depends on it.**
 
 That's the part that doesn't show up in vendor documentation.
 
-RoCEv2 solved the protocol problem. It did not solve the operational problem.
+**RoCEv2 solved the protocol problem. It did not solve the operational problem.**
 
 AI is not changing networking because it needs more bandwidth. Networking has been delivering more bandwidth for years.
 
